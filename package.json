@@ -5,6 +5,9 @@
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
+  "repository": {
+    "url": "https://github.com/maxwyn-o/uakit"
+  },
   "scripts": {
     "build": "tsup && npx terser ./dist/index.js --compress ecma=2022,computed_props=false -o ./dist/index.js && npx terser ./dist/index.mjs --compress ecma=2022,computed_props=false -o ./dist/index.mjs",
     "test": "jest --passWithNoTests --updateSnapshot --coverage"

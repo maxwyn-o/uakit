@@ -1,5 +1,8 @@
 /src
 /node_modules
+/coverage
+coverage
 
 tsconfig.json
 tsup.config.ts
+jest.config.js
