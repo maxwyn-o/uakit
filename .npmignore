@@ -3,6 +3,9 @@
 /coverage
 coverage
 
+/.github
+.github
+
 tsconfig.json
 tsup.config.ts
 jest.config.js
