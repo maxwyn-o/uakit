@@ -1,6 +1,6 @@
 {
   "name": "uakit.js",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Yet another browser-sniffing library",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
