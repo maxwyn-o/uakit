@@ -1,5 +1,8 @@
 /src
 /node_modules
 
+/.github
+.github
+
 tsconfig.json
 tsup.config.ts
