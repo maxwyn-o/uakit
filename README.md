@@ -38,7 +38,7 @@ In addition to the `sniff` object, `uakit.js` also exports additional utilities 
 
 ## Additional Information
 
-The `@utils/typing` export includes the following:
+The `utils` export includes the following:
 
 - `Browsers`: A type representing the possible browsers.
 - `OS`: A type representing the possible operating systems.
@@ -104,8 +104,6 @@ export const matchByIndex = (
 - `toEnum`: A function that converts an array to an Enum.
 
 ```ts
-import { ArrayTotuples } from "@utils/typing";
-
 export const toEnum = <T extends readonly string[], K extends ArrayTotuples<T>>(
   arr: T,
   enumeratedValues = false
